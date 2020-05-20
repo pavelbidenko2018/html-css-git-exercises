@@ -1,1 +1,18 @@
 /* Try different box model properties below */
+
+/* 1.  Make this text white without changing the colour of any other text. */
+/* 2. Reduce the space between the text in step 1 and the messages. Use the margin-bottom property to remove the bottom margin on the text. */
+.site-header > p {
+  color: white;
+  margin-bottom: 0;
+}
+/* 3. Change the font-size to 12px and use the text-align property to center the text. */
+.site-footer > p {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* 4. Add a box-shadow of 4px 4px 0 #dba944 so that it stands out. */
+.message:last-child {
+  box-shadow: 4px 4px 0 #dba944;
+}
