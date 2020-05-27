@@ -1,1 +1,19 @@
-/* Add your own CSS code below */
+/* Add your own CSS code below 
+
+Open columns.css and write a media query so that the countries are in two columns when the screen is wider than 768px.
+Write another media query so that the countries are in three columns when the screen is wider than 1200px.
+Change the size of your browser window to see how it reacts to different widths.
+
+*/
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .countries {
+    columns: 2;
+  }
+}
+
+@media (min-width: 1200px) {
+  .countries {
+    columns: 3;
+  }
+}
